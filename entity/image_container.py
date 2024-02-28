@@ -168,7 +168,7 @@ class ImageContainer(object):
         解析日期，转换为指定的格式
         :return: 指定格式的日期字符串，转换失败返回原始的时间字符串
         """
-        return datetime.strftime(self.date, '%Y-%m-%d %H:%M')
+        return 'Photo by ergofly at ' + datetime.strftime(self.date, '%Y-%m-%d %H:%M')
 
     def _parse_date(self) -> str:
         """
