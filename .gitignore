@@ -5,7 +5,6 @@ input
 output
 __pycache__
 logos/logo_psds
-exiftool
 build
 dist
 logs
